@@ -87,13 +87,13 @@
                 </div>
                 <div class="d-flex justify-content-center mt-3">
                     <div class="form-check form-check-inline secondary-products-buttons">
-                        <input class="form-check-input" type="radio" name="skinCategory" id="skinCategory1" value="skinned" checked>
+                        <input class="form-check-input categoryBtn" type="radio" name="skinCategory" id="skinCategory1" value="skinned">
                         <label class="form-check-label" for="skinCategory1">
                             Skinned
                         </label>
                     </div>
                     <div class="form-check form-check-inline secondary-products-buttons">
-                        <input class="form-check-input" type="radio" name="skinCategory" id="skinCategory2" value="rare skins">
+                        <input class="form-check-input categoryBtn" type="radio" name="skinCategory" id="skinCategory2" value="rare" checked>
                         <label class="form-check-label" for="skinCategory2">
                             Rare skins
                          </label>
@@ -101,7 +101,7 @@
                 </div>
                 <div class="products-line">
                     <div class="container">
-                        <div class="products-carousel rare owl-theme">
+                        <div class="products-carousel rare owl-theme" id="rare">
                             <?php for ($i = 0; $i < 6; $i++) { ?>
                             <div class="product-card cloud9-item mx-auto">
                                 <h3 class="product-title">Renegade Raider</h3>
@@ -134,28 +134,62 @@
                                 </div>
                             </div>
                             <?php } ?>
-                            <!-- <div class="product-card">
+                        </div>
+                        <div class="skinned" id="skinned">
+                            <div class="product-card">
+                                <h3 class="product-title">Shark pack</h3>
+                                <div class="product-body">
+                                    <div class="product-content">
+                                        <table class="product-specs">
+                                            <tbody>
+                                            <tr>
+                                                <td>Skins:</td>
+                                                <td>10-20</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Pickaxes:</td>
+                                                <td>5+</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Level:</td>
+                                                <td>Random</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Warranty:</td>
+                                                <td>Lifetime</td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="product-photo">
+                                        <img class="img-fluid" src="<?php echo $settings['global']['assets_path']; ?>/images/products/shark.png">
+                                        <div class="product-price">49.99$</div>
+                                        <button type="button" class="product-button">Pay</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
                                 <h3 class="product-title">Soldier pack</h3>
                                 <div class="product-body">
                                     <div class="product-content">
                                         <table class="product-specs">
                                             <tbody>
-                                                <tr>
-                                                    <td>Skins:</td>
-                                                    <td>10-20</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Pickaxes:</td>
-                                                    <td>5+</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Level:</td>
-                                                    <td>Random</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Warranty:</td>
-                                                    <td>Lifetime</td>
-                                                </tr>
+                                            <tr>
+                                                <td>Skins:</td>
+                                                <td>10-20</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Pickaxes:</td>
+                                                <td>5+</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Level:</td>
+                                                <td>Random</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Warranty:</td>
+                                                <td>Lifetime</td>
+                                            </tr>
                                             </tbody>
                                         </table>
                                     </div>
@@ -172,22 +206,22 @@
                                     <div class="product-content">
                                         <table class="product-specs">
                                             <tbody>
-                                                <tr>
-                                                    <td>Skins:</td>
-                                                    <td>10-20</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Pickaxes:</td>
-                                                    <td>5+</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Level:</td>
-                                                    <td>Random</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Warranty:</td>
-                                                    <td>Lifetime</td>
-                                                </tr>
+                                            <tr>
+                                                <td>Skins:</td>
+                                                <td>10-20</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Pickaxes:</td>
+                                                <td>5+</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Level:</td>
+                                                <td>Random</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Warranty:</td>
+                                                <td>Lifetime</td>
+                                            </tr>
                                             </tbody>
                                         </table>
                                     </div>
@@ -197,7 +231,7 @@
                                         <button type="button" class="product-button">Pay</button>
                                     </div>
                                 </div>
-                            </div> -->
+                            </div>
                         </div>
                     </div>
                 </div>
