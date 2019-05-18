@@ -516,6 +516,12 @@ header:after {
 	padding: 0px 15px;
 }
 
+/*  Buy modal  */
+.modal-text {
+	color: black;
+}
+
+
 /*  FOOTER  */
 
 footer {

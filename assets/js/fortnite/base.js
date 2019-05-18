@@ -14,7 +14,7 @@ $(document).ready(function () {
     });
 
     $('.product-button').on('click', function() {
-        console.log($(this).val())
+        $('#modal-product-id').val($(this).val())
     });
 
     // function to determine which skin to show. We are showing div id by radio button value.

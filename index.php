@@ -140,7 +140,7 @@
                                         </table>
                                         <div class="product-price">49.99$</div>
                                         <!-- TODO: pass product id/price to product-button as a value attribute -->
-                                        <button type="button" class="product-button" value="product id goes here">Pay</button>
+                                        <button type="button" class="product-button" data-toggle="modal" data-target="#buy-modal" value="id goes here">Pay</button>
                                     </div>
                                 </div>
                             </div>
@@ -175,7 +175,7 @@
                                     <div class="product-photo">
                                         <img class="img-fluid" src="<?php echo $settings['global']['assets_path']; ?>/images/products/shark.png">
                                         <div class="product-price">49.99$</div>
-                                        <button type="button" class="product-button">Pay</button>
+                                        <button type="button" class="product-button" data-toggle="modal" data-target="#buy-modal" value="id goes here">Pay</button>
                                     </div>
                                 </div>
                             </div>
@@ -207,7 +207,7 @@
                                     <div class="product-photo">
                                         <img class="img-fluid" src="<?php echo $settings['global']['assets_path']; ?>/images/products/soldier.png">
                                         <div class="product-price">24.99$</div>
-                                        <button type="button" class="product-button">Pay</button>
+                                        <button type="button" class="product-button" data-toggle="modal" data-target="#buy-modal" value="id goes here">Pay</button>
                                     </div>
                                 </div>
                             </div>
@@ -239,7 +239,7 @@
                                     <div class="product-photo">
                                         <img class="img-fluid" src="<?php echo $settings['global']['assets_path']; ?>/images/products/easter.png">
                                         <div class="product-price">9.99$</div>
-                                        <button type="button" class="product-button">Pay</button>
+                                        <button type="button" class="product-button" data-toggle="modal" data-target="#buy-modal" value="id goes here">Pay</button>
                                     </div>
                                 </div>
                             </div>
@@ -422,6 +422,7 @@
                     </div>
                 </div>
             </div>
-        </footer>
+        </footer>3
+<?php include './buy-modal.php' ?>
     </body>
 </html>
