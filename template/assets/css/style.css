@@ -1,0 +1,576 @@
+@font-face {
+  font-family: 'Burbank';
+  src: url('../fonts/BurbankBigCondensed-Bold.otf');
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+body {
+	overflow-x: hidden;
+	font-family: 'Burbank';
+	color: #ffffff;
+}
+
+.white {
+	color: #fff;
+}
+
+.black {
+	color: #000;
+}
+
+.button-orange {
+	background: #FF6650;
+	border: none;
+	font-size: 36px;
+	padding: 5px 30px;
+	text-transform: uppercase;
+	box-shadow: 5px 3px 10px 0 rgba(0, 0, 0, 0.4);
+	padding-bottom: 0;
+	transform: skewY(-1deg);
+}
+
+/*  HEADER  */
+
+header {
+	position: relative;
+	background: url('../images/header-background.png') no-repeat;
+	background-position-x: center;
+	background-size: cover;
+	padding: 40px 0;
+	height: 100vh;
+}
+
+header:after {
+	position: absolute;
+	content: "";
+	background: url('../images/svgs/triangle-up-grey.svg') no-repeat;
+	background-size: cover;
+	height: 150px;
+	left: -10px;
+	width: 105%;
+	bottom: -28px;
+}
+
+.header-top-navigation {
+	list-style: none;
+	font-size: 29px;
+	float: right;
+}
+
+.header-top-navigation li {
+	padding-right: 30px;
+}
+
+.header-top-navigation li:last-child {
+	padding-right: 0;
+}
+
+.header-top-navigation li a {
+	color: #ffffff;
+	padding-bottom: 5px;
+}
+
+.header-top-navigation li a:hover {
+	text-decoration: none;
+	border-bottom: 3px solid #FF6650;
+}
+
+.header-title {
+	margin-top: 20vh;
+	font-size: 80px;
+}
+
+/*  PRODUCTS SECTION  */
+#products {
+	position: relative;
+	background: #f6f6f6; /* Old browsers */
+	background: -moz-linear-gradient(top, #f6f6f6 0%, #c6c4c4 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #f6f6f6 0%,#c6c4c4 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #f6f6f6 0%,#c6c4c4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f6f6', endColorstr='#c6c4c4',GradientType=0 ); /* IE6-9 */
+}
+
+#products:after {
+	position: absolute;
+	content: "";
+	background: url('../images/svgs/products-bottom.svg') no-repeat;
+	background-size: cover;
+	width: 101%;
+	height: 150px;
+	bottom: 0;
+	left: 0;
+}
+
+.products-carousel {
+	height: 700px;
+}
+
+.fortniteGuyVector {
+	position: absolute;
+	background: url('../images/fortnite-guy.png') no-repeat;
+	background-size: cover;
+	width: 500px;
+	height: 500px;
+	bottom: 0;
+	left: 0;
+	z-index: 0;
+}
+
+.fortniteGirlVector {
+	position: absolute;
+	background: url('../images/fortnite-girl.png') no-repeat;
+	background-size: cover;
+	width: 500px;
+	height: 500px;
+	bottom: 0;
+	right: 0;
+	z-index: 0;
+}
+
+.primary-products-buttons label {
+	min-width: 90px;
+	font-size: 20px;
+	text-align: center;
+	color: #FF6650;
+	border: 3px solid #FF6650;
+	padding-top: 5px;
+	width: 100%;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.primary-products-buttons label:hover, .primary-products-buttons input[type="radio"]:checked + label {
+	background: #FF6650;
+	color: #fff;
+}
+
+.primary-products-buttons input[type="radio"] {
+	opacity: 0;
+	display: none;
+}
+
+.secondary-products-buttons label {
+	min-width: 140px;
+	font-size: 20px;
+	text-align: center;
+	color: rgba(0, 0, 0, .44);
+	border: 3px solid rgba(0, 0, 0, .44);
+	padding-top: 5px;
+	width: 100%;
+	text-transform: uppercase;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.secondary-products-buttons label:hover, .secondary-products-buttons input[type="radio"]:checked + label {
+	background: #fff;
+	border-color: #fff;
+	color: #000;
+}
+
+.secondary-products-buttons input[type="radio"] {
+	opacity: 0;
+	display: none;
+}
+
+/*  FEATURES  */
+#features {
+	position: relative;
+}
+
+#features:after {
+	position: absolute;
+	content: "";
+	background: url('../images/svgs/triangle-up-white.svg') no-repeat;
+	background-size: cover;
+	height: 150px;
+	width: 105%;
+	bottom: -122px;
+	left: -10px;
+	transform: rotate(180deg);
+	z-index: 1;
+}
+
+.feature-text {
+	font-size: 24px;
+	vertical-align: middle;
+	margin-left: 1rem;
+	color: rgba(0, 0, 0, 0.59);
+}
+
+.featuresVector {
+	position: absolute;
+	background: url('../images/features-vector.png') no-repeat;
+	background-size: cover;
+	width: 300px;
+	height: 300px;
+	bottom: 0;
+	left: 10%;
+}
+
+.statistic {
+	position: absolute;
+	background: url('../images/svgs/stats-block.svg') no-repeat;
+	background-size: cover;
+	width: 80%;
+	height: 200px;
+	bottom: -150px;
+	left: 50%;
+	z-index: 2;
+	transform: translate(-50%, 0);
+}
+
+.statistic .stats-title {
+	color: rgba(0, 0, 0, .59);
+}
+
+#products .container {
+	position: relative;
+	z-index: 1;
+}
+
+.products-line {
+	margin-top: 50px;
+}
+
+/* Rare skins pricing table */
+.rare .product-card {
+	background: url('../images/rare-skins-background.png') no-repeat;
+	background-size: contain;
+	max-width: 300px;
+	transition: .5s all;
+}
+
+.rare .product-card .product-title {
+	/*background-color: #fff;*/
+	/*word-spacing: 100vw;*/
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 30px;
+	padding: 15px;
+	padding-top: 30px;
+	margin-bottom: 0;
+}
+
+.rare .product-card .product-photo {
+	position: relative;
+    top: -59px;
+    left: -5px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.rare .product-card .product-photo img.rare-skin-photo {
+	max-width: 88%;
+	margin: auto;
+	display: block;
+}
+
+.rare .product-card .product-photo .product-price {
+	position: absolute;
+	top: 45px;
+	left: 25px;
+	font-size: 28px;
+	padding: 0px 15px;
+	background: #000;
+	color: #fff;
+}
+
+.rare .product-card .product-photo .product-button {
+	position: absolute;
+	bottom: -15px;
+    right: 55px;
+	font-size: 28px;
+	padding: 0px 15px;
+	background: #FF6650;
+	color: #fff;
+	border: none;
+}
+
+.rare .product-card .product-photo .product-specs {
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    width: 60%;
+}
+
+/* Skinned pricing table */
+
+.skinned .product-card {
+	background-color: #700F84;
+	transition: .5s all;
+}
+
+.skinned .product-card .product-title {
+	background-color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 38px;
+	padding: 15px;
+	margin-bottom: 0;
+}
+
+.skinned .product-card .product-body {
+	background: url('../images/product-background.png') no-repeat;
+	background-size: cover;
+}
+
+.skinned .product-card .product-body .product-content {
+	padding: 25px;
+}
+
+.skinned .product-card .product-specs {
+	width: 100%;
+	color: rgba(255, 255, 255, .78);
+	font-size: 24px;
+}
+
+.skinned .product-card .product-photo {
+	position: relative;
+}
+
+.skinned .product-card .product-photo .product-price {
+	position: absolute;
+	bottom: 15px;
+	left: 15px;
+	font-size: 28px;
+	padding: 0px 15px;
+	background: #fff;
+}
+
+.skinned .product-card .product-photo .product-button {
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+	font-size: 28px;
+	padding: 0px 15px;
+	background: #FF6650;
+	color: #fff;
+	border: none;
+}
+
+.owl-stage {
+	display: flex !important;
+}
+
+.owl-dot {
+	background: transparent;
+	border-color: transparent;
+}
+
+.owl-dot span {
+	background: #fff !important;
+}
+
+.owl-dot:focus {
+	outline: 0px !important;
+}
+
+.owl-nav {
+	display: none;
+}
+
+.owl-dots {
+	margin-top: 60px !important;
+}
+
+.owl-dot.active span {
+	background: #FF6650 !important;
+}
+
+.owl-item.center {
+	z-index: 1;
+}
+
+.owl-item.center .product-card {
+	margin: 0;
+	transform: scale(1.2);
+}
+
+#faq {
+	position: relative;
+	background: #81238F;
+	padding-top: 200px;
+	padding-bottom: 100px;
+}
+
+#faq .container {
+	position: relative;
+	z-index: 3;
+}
+
+#faq:before {
+	position: absolute;
+	content: " ";
+	background: url('../images/faq-background.png') no-repeat;
+	background-position-x: center;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	top: 0;
+}
+
+.faq-section {
+	max-width: 800px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.faq-title {
+	color: #fff;
+	font-size: 36px;
+	padding: 5px 20px;
+}
+
+.faq-block a[aria-expanded="true"] .faq-title {
+	background-color: #fff;
+	color: #000;
+}
+
+.faq-title span {
+	font-size: 24px;
+	padding-right: 20px;
+}
+
+.faq-body {
+	font-size: 24px;
+	background: #E8E7E7;
+	color: #000;
+	padding: 10px;
+}
+
+.faq-block {
+	margin-bottom: 10px;
+}
+
+#feedback {
+	position: relative;
+	padding: 0px;
+	background-color: #DDFAFF;
+}
+
+#feedback:before {
+	position: absolute;
+	content: "";
+	background: url('../images/feedback-background.png') no-repeat;
+	background-size: cover;
+	width: 500px;
+	height: 100%;
+	top: 0px;
+	left: 100px;
+}
+
+#feedback:after {
+	position: absolute;
+	content: "";
+	background: url('../images/svgs/triangle-up-blue.svg') no-repeat;
+	background-size: cover;
+	transform:rotateY(180deg);
+	width: 101%;
+	height: 150px;
+	top: -122px;
+	left: -10px;
+}
+
+.subscribe {
+	position: absolute;
+	background: url('../images/svgs/stats-block.svg') no-repeat;
+	background-size: cover;
+	width: 800px;
+	height: 200px;
+	bottom: -100px;
+	left: 50%;
+	z-index: 2;
+	transform: translate(-50%, 0);
+}
+
+.subscribe .stats-title {
+	color: rgba(0, 0, 0, .59);
+}
+
+.fortnite-input {
+	width: 100%;
+	height: 100%;
+	background: #D8D8D8;
+	border: 1px solid #979797;
+	font-size: 35px;
+	padding: 0px 15px;
+}
+
+/*  FOOTER  */
+
+footer {
+	background: #000000;
+}
+
+.footer-navigation {
+	font-size: 29px;
+	list-style: none;
+	text-transform: uppercase;
+	line-height: 30px;
+}
+
+.footer-navigation li {
+	padding-bottom: 7px;
+}
+
+.footer-navigation li a {
+	color: #ffffff;
+}
+
+.footer-navigation li a:hover {
+	border-bottom: 3px solid #FF6650;
+}
+
+.social-icon {
+	font-size: 1.7rem !important;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 768px) {
+	header:after {
+		width: 105%;
+		bottom: -28px;
+	}
+
+	.features-list {
+		margin-bottom: 300px;
+	}
+
+	.featuresVector {
+		left: 50%;
+		transform: translate(-50%, 0);
+	}
+
+	.statistic {
+		background: url('../images/stats-block-mobile.png') no-repeat;
+		background-position-x: center;
+		height: 420px;
+		bottom: -300px;
+	}
+
+	#faq {
+		padding-top: 350px;
+	}
+
+	.faq-title {
+		font-size: 22px;
+	}
+
+	.subscribe {
+		display: none;
+	}
+}
