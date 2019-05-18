@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="<?php echo $settings['global']['assets_path']; ?>/css/style.css<?php echo $cache_prefix; ?>">
         <link rel="stylesheet" href="<?php echo $settings['global']['assets_path']; ?>/css/owl.carousel.min.css<?php echo $cache_prefix; ?>">
         <link rel="stylesheet" href="<?php echo $settings['global']['assets_path']; ?>/css/owl.theme.default.min.css<?php echo $cache_prefix; ?>">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="<?php echo $settings['global']['assets_path']; ?>/js/popper.min.js<?php echo $cache_prefix; ?>"></script>
@@ -27,16 +28,16 @@
                     <div class="row">
                         <div class="col-md-3">
                             <a href="#">
-                                <img src="<?php echo $settings['global']['assets_path']; ?>/images/logov2.png" width="100px">
+                                <img src="<?php echo $settings['global']['assets_path']; ?>/images/logov2.png" width="200px">
                             </a>
                         </div>
-                        <div class="col-md-9">
-                            <ul class="header-top-navigation d-inline-flex">
+                        <div class="col-md-9 d-none d-md-block">
+                            <ul class="header-top-navigation d-inline-flex nav">
                                 <li><a href="#">Home</a></li>
-                                <li><a href="#">Buy Account</a></li>
-                                <li><a href="#">Giveaway</a></li>
+                                <li><a href="#products">Buy Account</a></li>
+                                <li><a href="#features">Giveaway</a></li>
                                 <li><a href="#">Blog</a></li>
-                                <li class=""><a href="#">Contacts</a></li>
+                                <li><a href="#">Contacts</a></li>
                             </ul>
                         </div>
                     </div>
@@ -100,11 +101,13 @@
                 </div>
                 <div class="products-line">
                     <div class="container">
-                        <div class="products-carousel skinned owl-theme">
-                            <div class="product-card">
-                                <h3 class="product-title">Shark pack</h3>
+                        <div class="products-carousel rare owl-theme">
+                            <?php for ($i = 0; $i < 6; $i++) { ?>
+                            <div class="product-card cloud9-item mx-auto">
+                                <h3 class="product-title">Renegade Raider</h3>
                                 <div class="product-body">
-                                    <div class="product-content">
+                                    <div class="product-photo">
+                                        <img class="img-fluid rare-skin-photo" src="<?php echo $settings['global']['assets_path']; ?>/images/products/rare/renegade-raider.png">
                                         <table class="product-specs">
                                             <tbody>
                                                 <tr>
@@ -125,15 +128,13 @@
                                                 </tr>
                                             </tbody>
                                         </table>
-                                    </div>
-                                    <div class="product-photo">
-                                        <img class="img-fluid" src="<?php echo $settings['global']['assets_path']; ?>/images/products/shark.png">
                                         <div class="product-price">49.99$</div>
                                         <button type="button" class="product-button">Pay</button>
                                     </div>
                                 </div>
                             </div>
-                            <div class="product-card">
+                            <?php } ?>
+                            <!-- <div class="product-card">
                                 <h3 class="product-title">Soldier pack</h3>
                                 <div class="product-body">
                                     <div class="product-content">
@@ -196,7 +197,7 @@
                                         <button type="button" class="product-button">Pay</button>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -208,34 +209,34 @@
             <div class="container">
                 <h1 class="text-center black text-uppercase">Our features</h1>
                 <div class="row mt-5">
-                    <div class="col-md-8 offset-4">
+                    <div class="col-12 col-md-8 offset-0 offset-md-4 features-list">
                         <div class="row mt-4">
-                            <div class="col-md-6">
-                                <img src="template/assets/images/icons/live-chat.png" width="45px">
+                            <div class="col-6">
+                                <img src="assets/images/icons/live-chat.png" width="45px">
                                 <span class="feature-text">Live Chat</span>
                             </div>
-                            <div class="col-md-6">
-                                <img src="template/assets/images/icons/lifetime-guarantee.png" width="45px">
+                            <div class="col-6">
+                                <img src="assets/images/icons/lifetime-guarantee.png" width="45px">
                                 <span class="feature-text">Lifetime Guarantee</span>
                             </div>
                         </div>
                         <div class="row mt-4">
-                            <div class="col-md-6">
-                                <img src="template/assets/images/icons/trusted-service.png" width="45px">
+                            <div class="col-6">
+                                <img src="assets/images/icons/trusted-service.png" width="45px">
                                 <span class="feature-text">Trusted Service</span>
                             </div>
-                            <div class="col-md-6">
-                                <img src="template/assets/images/icons/one-click-payment.png" width="45px">
+                            <div class="col-6">
+                                <img src="assets/images/icons/one-click-payment.png" width="45px">
                                 <span class="feature-text">One Click Payment</span>
                             </div>
                         </div>
                         <div class="row mt-4">
-                            <div class="col-md-6">
-                                <img src="template/assets/images/icons/247-support@2x.png" width="45px">
+                            <div class="col-6">
+                                <img src="assets/images/icons/247-support@2x.png" width="45px">
                                 <span class="feature-text">24/7 Support</span>
                             </div>
-                            <div class="col-md-6">
-                                <img src="template/assets/images/icons/lowest-price-deal@2x.png" width="45px">
+                            <div class="col-6">
+                                <img src="assets/images/icons/lowest-price-deal@2x.png" width="45px">
                                 <span class="feature-text">Lowest Price Deal</span>
                             </div>
                         </div>
@@ -293,7 +294,7 @@
         </section>
         <section id="feedback">
             <div class="container">
-                <h1 class="text-center black text-uppercase">CUSTOMERS FEEDBACK</h1>
+                <h1 class="pt-3 text-center black text-uppercase">CUSTOMERS FEEDBACK</h1>
                 <div class="row d-flex mt-5">
                     <div class="col-md-6">
                         <h2 class="text-center black">"Fantastic, I'm totally blown away by FortniteAcc. Thumbs up!“</h2>
@@ -323,7 +324,7 @@
         <footer>
             <div class="container py-3">
                 <div class="row pt-5">
-                    <div class="col-md-5 d-flex align-items-end">
+                    <div class="col-6 col-md-5 d-flex align-items-end order-5 order-md-0">
                         <div>
                             <ul class="footer-navigation pl-0">
                                 <li><a href="#">Home</a></li>
@@ -336,14 +337,16 @@
                             <div class="h5">FORTNITEACC.COM © ALL RIGHTS RESERVED</div>
                         </div>
                     </div>
-                    <div class="col-md-2 text-center d-flex align-items-end">
-                        <div class="mt-0">
-                            <img src="<?php echo $settings['global']['assets_path']; ?>/images/logo.png" width="100px">
+                    <div class="col-12 col-md-2 text-center d-flex align-items-end">
+                        <div class="mt-0 text-center w-100">
+                            <img src="<?php echo $settings['global']['assets_path']; ?>/images/logov2.png" width="170px">
                             <div class="h2 text-uppercase my-3">ForniteAcc.com</div>
                         </div>
                     </div>
-                    <div class="col-md-5 text-right d-flex align-items-end justify-content-end">
+                    <div class="col-6 col-md-5 text-right d-flex align-items-end justify-content-end order-5 order-md-0">
                         <div class="mb-3">
+                            <i class="fa fa-facebook-square pr-1 social-icon"></i>
+                            <i class="fa fa-instagram social-icon"></i>
                             <div class="h4">HELLO@FORTNITEACC.COM</div>
                             <div class="h4">CALL US: +370 625 7227</div>
                             <div class="d-inline-flex mt-3">
