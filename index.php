@@ -32,7 +32,7 @@
                             </a>
                         </div>
                         <div class="col-md-9 d-none d-md-block">
-                            <ul class="header-top-navigation d-inline-flex nav">
+                            <ul class="header-top-navigation d-inline-flex navlinks">
                                 <li><a href="#home">Home</a></li>
                                 <li><a href="#products">Buy Account</a></li>
                                 <li><a href="#features">Giveaway</a></li>
@@ -343,7 +343,7 @@
                 <div class="row pt-5">
                     <div class="col-6 col-md-5 d-flex align-items-end order-5 order-md-0">
                         <div>
-                            <ul class="footer-navigation pl-0 nav">
+                            <ul class="footer-navigation pl-0 navlinks">
                                 <li><a href="#home">Home</a></li>
                                 <li><a href="#products">Buy Account</a></li>
                                 <li><a href="#features">Giveaway</a></li>

@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     // scroll to selected menu element
-    $('.nav li').find('a').on('click', function(){
+    $('.navlinks li').find('a').on('click', function(){
         var divToScroll = $(this).attr('href');
         $('html,body').animate({
             scrollTop: $(divToScroll).offset().top
