@@ -10,16 +10,14 @@
 
         <link rel="stylesheet" href="<?php echo $settings['global']['assets_path']; ?>/css/bootstrap.min.css<?php echo $cache_prefix; ?>">
         <link rel="stylesheet" href="<?php echo $settings['global']['assets_path']; ?>/css/style.css<?php echo $cache_prefix; ?>">
-        <link rel="stylesheet" href="<?php echo $settings['global']['assets_path']; ?>/css/owl.carousel.min.css<?php echo $cache_prefix; ?>">
-        <link rel="stylesheet" href="<?php echo $settings['global']['assets_path']; ?>/css/owl.theme.default.min.css<?php echo $cache_prefix; ?>">
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="<?php echo $settings['global']['assets_path']; ?>/js/popper.min.js<?php echo $cache_prefix; ?>"></script>
         <script src="<?php echo $settings['global']['assets_path']; ?>/js/bootstrap.min.js<?php echo $cache_prefix; ?>"></script>
-        <script src="<?php echo $settings['global']['assets_path']; ?>/js/owl.carousel.min.js<?php echo $cache_prefix; ?>"></script>
-        <script src="<?php echo $settings['global']['assets_path']; ?>/js/base.js<?php echo $cache_prefix; ?>"></script>
         <script src="<?php echo $settings['global']['assets_path']; ?>/js/cloudcarousel.js<?php echo $cache_prefix; ?>"></script>
+        <script src="<?php echo $settings['global']['assets_path']; ?>/js/fortnite/base.js<?php echo $cache_prefix; ?>"></script>
+        <script src="<?php echo $settings['global']['assets_path']; ?>/js/fortnite/carousel.js<?php echo $cache_prefix; ?>"></script>
     </head>
     <body>
         <header id="home">
@@ -51,7 +49,7 @@
             </div>
         </header>
         <section id="products" class="py-3 black">
-            <div class="container">
+            <div class="container-fluid">
                 <h1 class="text-center black text-uppercase">Pick your new skin</h1>
                 <div class="d-flex justify-content-center mt-3">
                     <div class="form-check form-check-inline primary-products-buttons">
@@ -100,7 +98,7 @@
                     </div>
                 </div>
                 <div class="products-line">
-                    <div class="container">
+                    <div class="container-fluid">
                         <div class="products-carousel rare owl-theme" id="rare">
                             <?php for ($i = 0; $i < 6; $i++) { ?>
                             <div class="product-card cloud9-item mx-auto">
