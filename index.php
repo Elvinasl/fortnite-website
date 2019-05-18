@@ -139,7 +139,8 @@
                                             </tbody>
                                         </table>
                                         <div class="product-price">49.99$</div>
-                                        <button type="button" class="product-button">Pay</button>
+                                        <!-- TODO: pass product id/price to product-button as a value attribute -->
+                                        <button type="button" class="product-button" value="product id goes here">Pay</button>
                                     </div>
                                 </div>
                             </div>

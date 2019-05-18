@@ -8,9 +8,4 @@ $(document).ready(function () {
         autoPlayDelay: 10000,
         speed: 10
     });
-
-
-    $(document).on('click', '.product-button', function() {
-        alert('Paspaudei buy');
-    });
 });

@@ -13,6 +13,10 @@ $(document).ready(function () {
         skinCategoryChanged();
     });
 
+    $('.product-button').on('click', function() {
+        console.log($(this).val())
+    });
+
     // function to determine which skin to show. We are showing div id by radio button value.
     function skinCategoryChanged() {
         $("input[name='skinCategory']").each(function(index, element) {
