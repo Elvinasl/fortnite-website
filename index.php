@@ -98,7 +98,7 @@
                     </div>
                 </div>
                 <div class="products-line">
-                    <div class="container-fluid">
+                    <div class="container-fluid" id="carousel-container">
                         <div class="products-carousel rare owl-theme" id="rare">
                             <?php for ($i = 0; $i < 6; $i++) { ?>
                             <div class="product-card cloud9-item mx-auto">
