@@ -266,28 +266,45 @@
                 <h1 class="text-center text-uppercase">FAQ</h1>
                 <div class="faq-section">
                     <div class="faq-block">
-                        <a href="#" data-toggle="collapse" data-target="#faq1">
+                        <a href="#faq1" data-toggle="collapse" data-target="#faq1">
                             <div class="faq-title active"><span>♦︎</span> Do I need Xbox Live Gold to play Fortnite Battle Royale?</div>
                         </a>
-                        <div id="faq1" class="faq-body collapse">Yes. You do need Xbox Live Gold in order to play Fortnite Battle Royale on Xbox.</div>
+                        <div id="faq1" class="collapse">
+                            <div class="faq-body">Yes. You do need Xbox Live Gold in order to play Fortnite Battle Royale on Xbox.</div>
+                        </div>
                     </div>
+
                     <div class="faq-block">
-                        <a href="#" data-toggle="collapse" data-target="#faq2">
+                        <a href="#faq2" data-toggle="collapse" data-target="#faq2">
                             <div class="faq-title"><span>♦︎</span> I would like to report a player, where can I do so?</div>
                         </a>
-                        <div id="faq2" class="faq-body collapse">Yes. You do need Xbox Live Gold in order to play Fortnite Battle Royale on Xbox.</div>
+                        <div id="faq2" class="collapse">
+                            <div class="faq-body">
+                                Yes. You do need Xbox Live Gold in order to play Fortnite Battle Royale on Xbox
+                            </div>
+                        </div>
                     </div>
+
                     <div class="faq-block">
-                        <a href="#" data-toggle="collapse" data-target="#faq3">
+                        <a href="#faq3" data-toggle="collapse" data-target="#faq3">
                             <div class="faq-title"><span>♦︎</span> How do you handle teamers in solo play?</div>
                         </a>
-                        <div id="faq3" class="faq-body collapse">Yes. You do need Xbox Live Gold in order to play Fortnite Battle Royale on Xbox.</div>
+                        <div id="faq3" class="collapse">
+                            <div class="faq-body">
+                                Yes. You do need Xbox Live Gold in order to play Fortnite Battle Royale on Xbox.
+                            </div>
+                        </div>
                     </div>
+
                     <div class="faq-block">
-                        <a href="#" data-toggle="collapse" data-target="#faq4">
+                        <a href="#faq4" data-toggle="collapse" data-target="#faq4">
                             <div class="faq-title"><span>♦︎</span> I’m having a technical game issue, what should I do?</div>
                         </a>
-                        <div id="faq4" class="faq-body collapse">Yes. You do need Xbox Live Gold in order to play Fortnite Battle Royale on Xbox.</div>
+                        <div id="faq4" class="collapse">
+                            <div class="faq-body">
+                                Yes. You do need Xbox Live Gold in order to play Fortnite Battle Royale on Xbox.
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
