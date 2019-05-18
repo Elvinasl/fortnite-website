@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    skinCategoryChanged();
 
     // scroll to selected menu element
     $('.navlinks li').find('a').on('click', function(){
