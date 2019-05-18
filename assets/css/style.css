@@ -302,10 +302,15 @@ header:after {
 .rare .product-card .product-photo .product-specs {
 	position: absolute;
     left: 50%;
-    top: 50%;
+	top: 60%;
     transform: translate(-50%,-50%);
     color: #fff;
     width: 60%;
+}
+
+.product-specs td {
+	padding: 0;
+	font-size: 11pt;
 }
 
 /* Skinned pricing table */

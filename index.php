@@ -119,6 +119,18 @@
                                                     <td>5+</td>
                                                 </tr>
                                                 <tr>
+                                                    <td>Pickaxes:</td>
+                                                    <td>5+</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Pickaxes:</td>
+                                                    <td>5+</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Pickaxes:</td>
+                                                    <td>5+</td>
+                                                </tr>
+                                                <tr>
                                                     <td>Level:</td>
                                                     <td>Random</td>
                                                 </tr>
