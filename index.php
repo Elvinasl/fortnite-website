@@ -22,7 +22,7 @@
         <script src="<?php echo $settings['global']['assets_path']; ?>/js/cloudcarousel.js<?php echo $cache_prefix; ?>"></script>
     </head>
     <body>
-        <header>
+        <header id="home">
             <div class="header-top">
                 <div class="container">
                     <div class="row">
@@ -33,7 +33,7 @@
                         </div>
                         <div class="col-md-9 d-none d-md-block">
                             <ul class="header-top-navigation d-inline-flex nav">
-                                <li><a href="#">Home</a></li>
+                                <li><a href="#home">Home</a></li>
                                 <li><a href="#products">Buy Account</a></li>
                                 <li><a href="#features">Giveaway</a></li>
                                 <li><a href="#">Blog</a></li>
@@ -326,10 +326,10 @@
                 <div class="row pt-5">
                     <div class="col-6 col-md-5 d-flex align-items-end order-5 order-md-0">
                         <div>
-                            <ul class="footer-navigation pl-0">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Buy Account</a></li>
-                                <li><a href="#">Giveaway</a></li>
+                            <ul class="footer-navigation pl-0 nav">
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#products">Buy Account</a></li>
+                                <li><a href="#features">Giveaway</a></li>
                                 <li><a href="#">Blog</a></li>
                                 <li><a href="#">Contacts</a></li>
                                 <li><a href="#">Terms of Services</a></li>

@@ -1,13 +1,13 @@
 $(document).ready(function () {
-    alert('loaded');
 
+    // scroll to selected menu element
     $('.nav li').find('a').on('click', function(){
-        console.log('click');
-        var $href = $(this).attr('href');
-        var $anchor = $('#'+$href).offset();
-        window.scrollTo($anchor.left,$anchor.top);
-        return false;
+        var divToScroll = $(this).attr('href');
+        $('html,body').animate({
+            scrollTop: $(divToScroll).offset().top
+        });
     });
+
 
     if ($('.products-carousel').length) {
 
