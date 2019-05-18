@@ -384,7 +384,7 @@
             </div>
         </section>
         <footer>
-            <div class="container py-3">
+            <div class="container-fluid py-5">
                 <div class="row pt-5">
                     <div class="col-6 col-md-5 d-flex align-items-end order-5 order-md-0">
                         <div>
@@ -422,7 +422,7 @@
                     </div>
                 </div>
             </div>
-        </footer>3
+        </footer>
 <?php include './buy-modal.php' ?>
     </body>
 </html>
