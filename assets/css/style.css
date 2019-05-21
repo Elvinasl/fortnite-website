@@ -519,8 +519,14 @@ header:after {
 /*  Buy modal  */
 
 .modal-dialog {
-	-webkit-clip-path: polygon(0 8%, 100% 0, 100% 100%, 4% 87%);
-	clip-path: polygon(0 8%, 100% 0, 100% 100%, 4% 87%);
+	-webkit-clip-path: polygon(0 8%, 100% 0, 100% 100%, 2% 93%);
+	clip-path: polygon(0 8%, 100% 0, 100% 100%, 2% 93%);
+}
+
+.modal-content  {
+	-webkit-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	border-radius: 0 !important;
 }
 
 .modal-text {
@@ -528,8 +534,11 @@ header:after {
 }
 
 .pay-modal-footer {
-	background-color: #BEBEBE;
+	background-color: #e4e4e4;
 	min-height: 100px;
+	-webkit-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	border-radius: 0 !important;
 }
 
 .modal-pay-btn-cancel {
