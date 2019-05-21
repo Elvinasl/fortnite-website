@@ -6,18 +6,18 @@
 
 
                 <div class="modal-body">
-                    <div class="col-md-12 pt-4">
-                        <ol class="carousel-indicators">
-                            <li data-target="#buyNowCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#buyNowCarousel" data-slide-to="1"></li>
-                            <li data-target="#buyNowCarousel" data-slide-to="2"></li>
-                        </ol>
+                    <div class="col-md-12 py-4">
+                        <div class="carousel-indicators">
+                            <span class="dot dot-active" data-slide="0"></span>
+                            <span class="dot" data-slide="1"></span>
+                            <span class="dot" data-slide="2"></span>
+                        </div>
                         <button type="button" class="close-payment-btn" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">X</span>
                         </button>
                     </div>
                     <div id="buyNowCarousel" class="carousel slide" data-ride="carousel">
-                        <div class="col-md-12 px-5">
+                        <div class="col-md-12 my-4">
                             <div class="carousel-inner">
                                     <div class="carousel-item active">
                                         <h1 class="text-center black">SELECT PAYMENT METHOD</h1>

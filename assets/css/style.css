@@ -543,7 +543,10 @@ header:after {
 	-webkit-border-radius: 0 !important;
 	-moz-border-radius: 0 !important;
 	border-radius: 0 !important;
-	min-height: 470px;
+}
+
+.modal-body {
+	min-height: 500px;
 }
 
 .modal-text {
@@ -590,11 +593,29 @@ header:after {
 .modal-pay-btn-cancel {
 	background: #878787;
 	color: white;
+	letter-spacing: inherit;
 }
 
 .modal-pay-btn-next {
 	background: #FF6650;
 	color: white;
+	letter-spacing: inherit;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.dot-active, .dot:hover {
+	background-color: #FF6650;
 }
 
 /*  FOOTER  */
