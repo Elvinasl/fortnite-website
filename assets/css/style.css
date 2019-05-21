@@ -517,10 +517,30 @@ header:after {
 }
 
 /*  Buy modal  */
+
+.modal-dialog {
+	-webkit-clip-path: polygon(0 8%, 100% 0, 100% 100%, 4% 87%);
+	clip-path: polygon(0 8%, 100% 0, 100% 100%, 4% 87%);
+}
+
 .modal-text {
 	color: black;
 }
 
+.pay-modal-footer {
+	background-color: #BEBEBE;
+	min-height: 100px;
+}
+
+.modal-pay-btn-cancel {
+	background: #878787;
+	color: white;
+}
+
+.modal-pay-btn-next {
+	background: #FF6650;
+	color: white;
+}
 
 /*  FOOTER  */
 

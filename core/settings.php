@@ -5,8 +5,8 @@
 $settings = [
     'global' => [
         // TODO: change to default
-        'full_path' => 'http://localhost/~elvinaslukasevicius/fortnite/',
-        'assets_path' => 'http://localhost/~elvinaslukasevicius/fortnite/assets',
+        'full_path' => 'http://fortnite.local/',
+        'assets_path' => '/assets',
         'website' => [
             'title' => 'FortniteAcc.com - New Website here!',
             'keywords' => 'fortniteacc keywords',
