@@ -522,6 +522,18 @@ header:after {
 
 /*  Buy modal  */
 
+.close-payment-btn {
+	background-color: #FF6650;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	color: white;
+	font-size: 18px;
+	border: 0;
+}
+
 .modal-dialog {
 	-webkit-clip-path: polygon(0 3%, 100% 0, 100% 100%, 2% 97%);
 	clip-path: polygon(0 3%, 100% 0, 100% 100%, 2% 97%);

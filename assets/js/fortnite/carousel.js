@@ -20,5 +20,6 @@ $(document).ready(function () {
 
     $('#buy-modal-back-btn').on('click', function () {
         $('.carousel').carousel('prev');
-    })
+    });
+
 });

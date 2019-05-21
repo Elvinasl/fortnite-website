@@ -1,4 +1,4 @@
-<div class="modal" tabindex="-1" role="dialog" id="buy-modal" style="display: block">
+<div class="modal" tabindex="-1" role="dialog" id="buy-modal">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <form action="" method="post">
@@ -12,8 +12,8 @@
                             <li data-target="#buyNowCarousel" data-slide-to="1"></li>
                             <li data-target="#buyNowCarousel" data-slide-to="2"></li>
                         </ol>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
+                        <button type="button" class="close-payment-btn" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">X</span>
                         </button>
                     </div>
                     <div id="buyNowCarousel" class="carousel slide" data-ride="carousel">
