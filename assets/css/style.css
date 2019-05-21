@@ -594,12 +594,18 @@ header:after {
 	background: #878787;
 	color: white;
 	letter-spacing: inherit;
+	padding: 5px 15px;
+	width: 100px;
+	font-size: 16pt;
 }
 
 .modal-pay-btn-next {
 	background: #FF6650;
 	color: white;
 	letter-spacing: inherit;
+	width: 100%;
+	font-size: 16pt;
+	padding: 5px 10px;
 }
 
 /* The dots/bullets/indicators */

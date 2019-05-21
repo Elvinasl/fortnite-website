@@ -1,4 +1,4 @@
-<div class="modal" tabindex="-1" role="dialog" id="buy-modal">
+<div class="modal" tabindex="-1" role="dialog" id="buy-modal" style="display: block">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <form action="" method="post">
@@ -69,16 +69,16 @@
                     </div>
                 </div>
                 <div class="modal-footer pay-modal-footer">
-                    <div class="col-sm-4">
-                        <button id="buy-modal-back-btn" type="button" class="btn modal-pay-btn-cancel btn-md btn-block pull-right">BACK</button>
+                    <div class="col-sm-3">
+                        <button id="buy-modal-back-btn" type="button" class="modal-pay-btn-cancel ml-3">BACK</button>
+                    </div>
+
+                    <div class="col-sm-5">
+
                     </div>
 
                     <div class="col-sm-4">
-
-                    </div>
-
-                    <div class="col-sm-4">
-                        <button id="buy-modal-next-btn" type="button" class="btn modal-pay-btn-next btn-md btn-block pull-right">NEXT STEP</button>
+                        <button id="buy-modal-next-btn" type="button" class="modal-pay-btn-next ml-3">NEXT STEP</button>
                     </div>
                 </div>
             </form>
