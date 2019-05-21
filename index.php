@@ -257,31 +257,31 @@
                     <div class="col-12 col-md-8 offset-0 offset-md-4 features-list">
                         <div class="row mt-4">
                             <div class="col-6">
-                                <img src="assets/images/icons/live-chat.png" width="45px">
+                                <img src="<?php echo $settings['global']['assets_path']; ?>/images/icons/live-chat.png" width="45px">
                                 <span class="feature-text">Live Chat</span>
                             </div>
                             <div class="col-6">
-                                <img src="assets/images/icons/lifetime-guarantee.png" width="45px">
+                                <img src="<?php echo $settings['global']['assets_path']; ?>/images/icons/lifetime-guarantee.png" width="45px">
                                 <span class="feature-text">Lifetime Guarantee</span>
                             </div>
                         </div>
                         <div class="row mt-4">
                             <div class="col-6">
-                                <img src="assets/images/icons/trusted-service.png" width="45px">
+                                <img src="<?php echo $settings['global']['assets_path']; ?>/images/icons/trusted-service.png" width="45px">
                                 <span class="feature-text">Trusted Service</span>
                             </div>
                             <div class="col-6">
-                                <img src="assets/images/icons/one-click-payment.png" width="45px">
+                                <img src="<?php echo $settings['global']['assets_path']; ?>/images/icons/one-click-payment.png" width="45px">
                                 <span class="feature-text">One Click Payment</span>
                             </div>
                         </div>
                         <div class="row mt-4">
                             <div class="col-6">
-                                <img src="assets/images/icons/247-support@2x.png" width="45px">
+                                <img src="<?php echo $settings['global']['assets_path']; ?>/images/icons/247-support@2x.png" width="45px">
                                 <span class="feature-text">24/7 Support</span>
                             </div>
                             <div class="col-6">
-                                <img src="assets/images/icons/lowest-price-deal@2x.png" width="45px">
+                                <img src="<?php echo $settings['global']['assets_path']; ?>/images/icons/lowest-price-deal@2x.png" width="45px">
                                 <span class="feature-text">Lowest Price Deal</span>
                             </div>
                         </div>

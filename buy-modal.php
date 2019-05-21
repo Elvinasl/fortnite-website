@@ -1,4 +1,4 @@
-<div class="modal" tabindex="-1" role="dialog" id="buy-modal" style="display: block">
+<div class="modal" tabindex="-1" role="dialog" id="buy-modal">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <form action="" method="post">
@@ -24,21 +24,21 @@
                                         <ul class="list-group list-group-flush">
                                             <li class="list-group-item grey modal-list-row">
                                                 <div class="payment-icons">
-                                                    <img src="/assets/images/payments/bitpay.png" />
+                                                    <img src="<?php echo $settings['global']['assets_path']; ?>/images/payments/bitpay.png" />
                                                 </div>
                                                 <span>Pay with Cryptocurrency</span>
                                             </li>
                                             <li class="list-group-item grey modal-list-row">
                                                 <div class="payment-icons">
-                                                    <img src="/assets/images/payments/paypal.png" />
+                                                    <img src="<?php echo $settings['global']['assets_path']; ?>/images/payments/paypal.png" />
                                                 </div>
                                                 <span>Pay with PayPal</span>
                                             </li>
                                             <li class="list-group-item grey modal-list-row">
                                                 <div class="payment-icons">
-                                                    <img class="credit-card-icons" src="/assets/images/payments/american-express.png" />
-                                                    <img class="credit-card-icons" src="/assets/images/payments/mastercard.png" />
-                                                    <img class="credit-card-icons" src="/assets/images/payments/visa.png" />
+                                                    <img class="credit-card-icons" src="<?php echo $settings['global']['assets_path']; ?>/images/payments/american-express.png" />
+                                                    <img class="credit-card-icons" src="<?php echo $settings['global']['assets_path']; ?>/images/payments/mastercard.png" />
+                                                    <img class="credit-card-icons" src="<?php echo $settings['global']['assets_path']; ?>/images/payments/visa.png" />
                                                 </div>
                                                 <span>Pay with Credit Card</span>
                                             </li>
@@ -46,7 +46,7 @@
                                     </div>
                                 <div class="carousel-item">
                                     <h1 class="text-center black">SUMMARY</h1>
-                                    <img src="/assets/images/products/shark.png" />
+                                    <img src="<?php echo $settings['global']['assets_path']; ?>/images/products/shark.png" />
                                     <ul class="list-group list-group-flush">
                                         <li class="list-group-item black">
                                             Price
