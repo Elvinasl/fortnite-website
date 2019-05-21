@@ -17,7 +17,6 @@
         <script src="<?php echo $settings['global']['assets_path']; ?>/js/bootstrap.min.js<?php echo $cache_prefix; ?>"></script>
         <script src="<?php echo $settings['global']['assets_path']; ?>/js/cloudcarousel.js<?php echo $cache_prefix; ?>"></script>
         <script src="<?php echo $settings['global']['assets_path']; ?>/js/fortnite/base.js<?php echo $cache_prefix; ?>"></script>
-        <script src="<?php echo $settings['global']['assets_path']; ?>/js/fortnite/carousel.js<?php echo $cache_prefix; ?>"></script>
     </head>
     <body>
         <header id="home">
