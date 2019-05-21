@@ -26,13 +26,6 @@ $(document).ready(function () {
 
         var elementToShowId = $("input[name='skinCategory']:checked").val();
         $('#' + elementToShowId).show();
-
-        // rare category uses carousel, therefore we need to have container-fluid
-        if (elementToShowId === 'rare') {
-            $('#carousel-container').addClass('container-fluid').removeClass('container');
-        } else {
-            $('#carousel-container').addClass('container').removeClass('container-fluid');
-        }
     }
 
 });

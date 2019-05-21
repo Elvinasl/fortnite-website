@@ -322,6 +322,7 @@ header:after {
 .skinned .product-card {
 	background-color: #700F84;
 	transition: .5s all;
+	max-width: 250px;
 }
 
 .skinned .product-card .product-title {
