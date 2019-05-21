@@ -523,14 +523,15 @@ header:after {
 /*  Buy modal  */
 
 .modal-dialog {
-	-webkit-clip-path: polygon(0 8%, 100% 0, 100% 100%, 2% 93%);
-	clip-path: polygon(0 8%, 100% 0, 100% 100%, 2% 93%);
+	-webkit-clip-path: polygon(0 3%, 100% 0, 100% 100%, 2% 97%);
+	clip-path: polygon(0 3%, 100% 0, 100% 100%, 2% 97%);
 }
 
 .modal-content  {
 	-webkit-border-radius: 0 !important;
 	-moz-border-radius: 0 !important;
 	border-radius: 0 !important;
+	min-height: 470px;
 }
 
 .modal-text {
@@ -539,11 +540,12 @@ header:after {
 
 .modal-list-row {
 	display: flex;
+	flex-direction: row;
 }
 
 .payment-icons {
 	margin-right: 20px;
-	max-width: 50px;
+	width: 70px;
 }
 
 .no-border {
@@ -558,8 +560,8 @@ header:after {
 }
 
 .credit-card-icons {
-	width: 20px;
-	height: 20px;
+	max-width: 20px;
+	height: auto;
 }
 
 .pay-modal-footer {
@@ -568,6 +570,9 @@ header:after {
 	-webkit-border-radius: 0 !important;
 	-moz-border-radius: 0 !important;
 	border-radius: 0 !important;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 }
 
 .modal-pay-btn-cancel {
