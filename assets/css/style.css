@@ -537,6 +537,15 @@ header:after {
 	color: black;
 }
 
+.modal-list-row {
+	display: flex;
+}
+
+.payment-icons {
+	margin-right: 20px;
+	max-width: 50px;
+}
+
 .no-border {
 	border: 0;
 	box-shadow: none; /* You may want to include this as bootstrap applies these styles too */
@@ -546,6 +555,11 @@ header:after {
 	color: #737373;
 	background-color: #e4e4e4;
 	text-align: center;
+}
+
+.credit-card-icons {
+	width: 20px;
+	height: 20px;
 }
 
 .pay-modal-footer {

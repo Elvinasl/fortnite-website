@@ -3,26 +3,45 @@
         <div class="modal-content">
             <form action="" method="post">
                 <input type="hidden" id="modal-product-id" />
-                <div class="modal-header">
-                    <ol class="carousel-indicators">
-                        <li data-target="#buyNowCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#buyNowCarousel" data-slide-to="1"></li>
-                        <li data-target="#buyNowCarousel" data-slide-to="2"></li>
-                    </ol>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
+
+
                 <div class="modal-body">
+                    <div class="col-md-12 pt-4">
+                        <ol class="carousel-indicators">
+                            <li data-target="#buyNowCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#buyNowCarousel" data-slide-to="1"></li>
+                            <li data-target="#buyNowCarousel" data-slide-to="2"></li>
+                        </ol>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
                     <div id="buyNowCarousel" class="carousel slide" data-ride="carousel">
                         <div class="col-md-12 px-5">
                             <div class="carousel-inner">
                                     <div class="carousel-item active">
                                         <h1 class="text-center black">SELECT PAYMENT METHOD</h1>
                                         <ul class="list-group list-group-flush">
-                                            <li class="list-group-item grey">Pay with Cryptocurrency</li>
-                                            <li class="list-group-item grey">Pay with PayPal</li>
-                                            <li class="list-group-item grey">Pay with Credit Card</li>
+                                            <li class="list-group-item grey modal-list-row">
+                                                <div class="payment-icons">
+                                                    <img src="/assets/images/payments/bitpay.png" />
+                                                </div>
+                                                <span>Pay with Cryptocurrency</span>
+                                            </li>
+                                            <li class="list-group-item grey modal-list-row">
+                                                <div class="payment-icons">
+                                                    <img src="/assets/images/payments/paypal.png" />
+                                                </div>
+                                                <span>Pay with PayPal</span>
+                                            </li>
+                                            <li class="list-group-item grey modal-list-row">
+                                                <div class="payment-icons">
+                                                    <img class="credit-card-icons" src="/assets/images/payments/american-express.png" />
+                                                    <img class="credit-card-icons" src="/assets/images/payments/mastercard.png" />
+                                                    <img class="credit-card-icons" src="/assets/images/payments/visa.png" />
+                                                </div>
+                                                <span>Pay with Credit Card</span>
+                                            </li>
                                         </ul>
                                     </div>
                                 <div class="carousel-item">
@@ -51,7 +70,7 @@
                 </div>
                 <div class="modal-footer pay-modal-footer">
                     <div class="col-sm-4">
-                        <button type="button" class="btn modal-pay-btn-cancel btn-md btn-block pull-right">BACK</button>
+                        <button id="buy-modal-back-btn" type="button" class="btn modal-pay-btn-cancel btn-md btn-block pull-right">BACK</button>
                     </div>
 
                     <div class="col-sm-4">
@@ -59,7 +78,7 @@
                     </div>
 
                     <div class="col-sm-4">
-                        <button type="button" class="btn modal-pay-btn-next btn-md btn-block pull-right">NEXT STEP</button>
+                        <button id="buy-modal-next-btn" type="button" class="btn modal-pay-btn-next btn-md btn-block pull-right">NEXT STEP</button>
                     </div>
                 </div>
             </form>

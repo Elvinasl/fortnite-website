@@ -10,6 +10,15 @@ $(document).ready(function () {
     });
 
     $('.carousel').carousel({
-        interval: 9999
+        interval: false,
     });
+
+    $('#buy-modal-next-btn').on('click', function () {
+        $('.carousel').carousel('next');
+    });
+
+
+    $('#buy-modal-back-btn').on('click', function () {
+        $('.carousel').carousel('prev');
+    })
 });
