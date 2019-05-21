@@ -8,4 +8,8 @@ $(document).ready(function () {
         autoPlayDelay: 10000,
         speed: 10
     });
+
+    $('.carousel').carousel({
+        interval: 9999
+    });
 });

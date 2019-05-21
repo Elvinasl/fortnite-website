@@ -21,6 +21,10 @@ body {
 	color: #000;
 }
 
+.grey {
+	color: #878787;
+}
+
 .button-orange {
 	background: #FF6650;
 	border: none;
@@ -531,6 +535,17 @@ header:after {
 
 .modal-text {
 	color: black;
+}
+
+.no-border {
+	border: 0;
+	box-shadow: none; /* You may want to include this as bootstrap applies these styles too */
+}
+
+.discount-field {
+	color: #737373;
+	background-color: #e4e4e4;
+	text-align: center;
 }
 
 .pay-modal-footer {
