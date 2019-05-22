@@ -49,6 +49,32 @@ $(document).ready(function () {
         dots[slideIndex].className += " dot-active";
     });
 
+    $('.skinned-carousel').slick({
+        centerMode: true,
+        slidesToShow: 3,
+
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 3
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
+
     // Thumbnail image controls
     function setSlideIndex(i) {
         $('.carousel').carousel(i);
@@ -63,8 +89,6 @@ $(document).ready(function () {
 
         var elementToShowId = $("input[name='skinCategory']:checked").val();
         $('#' + elementToShowId).show();
-
-        initCardCarousel();
     }
 
     function initCardCarousel() {

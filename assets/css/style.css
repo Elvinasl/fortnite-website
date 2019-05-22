@@ -320,9 +320,14 @@ header:after {
 /* Skinned pricing table */
 
 .skinned .product-card {
-	background-color: #700F84;
 	transition: .5s all;
-	max-width: 250px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+
+.slick-slider .slick-list {
+	transform: none;
 }
 
 .skinned .product-card .product-title {
@@ -332,6 +337,20 @@ header:after {
 	font-size: 38px;
 	padding: 15px;
 	margin-bottom: 0;
+}
+
+.slick-center {
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	opacity: 1;
+	transform: scale(1.2);
+
+}
+
+.slick-center .product-body {
+	background: #700F84 url('../images/product-background.png') no-repeat !important;
 }
 
 .skinned .product-card .product-body {

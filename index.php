@@ -11,11 +11,12 @@
         <link rel="stylesheet" href="<?php echo $settings['global']['assets_path']; ?>/css/bootstrap.min.css<?php echo $cache_prefix; ?>">
         <link rel="stylesheet" href="<?php echo $settings['global']['assets_path']; ?>/css/style.css<?php echo $cache_prefix; ?>">
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="<?php echo $settings['global']['assets_path']; ?>/js/popper.min.js<?php echo $cache_prefix; ?>"></script>
         <script src="<?php echo $settings['global']['assets_path']; ?>/js/bootstrap.min.js<?php echo $cache_prefix; ?>"></script>
         <script src="<?php echo $settings['global']['assets_path']; ?>/js/cloudcarousel.js<?php echo $cache_prefix; ?>"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
         <script src="<?php echo $settings['global']['assets_path']; ?>/js/fortnite/base.js<?php echo $cache_prefix; ?>"></script>
     </head>
     <body>
@@ -90,14 +91,14 @@
                         </label>
                     </div>
                     <div class="form-check form-check-inline secondary-products-buttons">
-                        <input class="form-check-input categoryBtn" type="radio" name="skinCategory" id="skinCategory2" value="rare">
+                        <input class="form-check-input categoryBtn" type="radio" name="skinCategory" id="skinCategory2" value="rare" >
                         <label class="form-check-label" for="skinCategory2">
                             Rare skins
                          </label>
                     </div>
                 </div>
                 <div class="products-line">
-                    <div class="container-fluid" id="carousel-container">
+                    <div class="container">
                         <div class="products-carousel rare" id="rare">
                             <?php for ($i = 0; $i < 6; $i++) { ?>
                             <div class="product-card cloud9-item mx-auto">
@@ -145,9 +146,9 @@
                             </div>
                             <?php } ?>
                         </div>
-                        <div class="products-carousel skinned" id="skinned">
+                        <div class="skinned-carousel skinned" id="skinned">
                             <?php for ($i = 0; $i < 6; $i++) { ?>
-                            <div class="product-card cloud9-item mx-auto">
+                            <div class="product-card">
                                 <h3 class="product-title">Shark pack</h3>
                                 <div class="product-body">
                                     <div class="product-content">
