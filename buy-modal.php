@@ -26,13 +26,13 @@
                                                 <div class="payment-icons">
                                                     <img src="<?php echo $settings['global']['assets_path']; ?>/images/payments/bitpay.png" />
                                                 </div>
-                                                <span>Pay with Cryptocurrency</span>
+                                                <span class="payment-type-text">Pay with Cryptocurrency</span>
                                             </li>
                                             <li class="list-group-item grey modal-list-row">
                                                 <div class="payment-icons">
                                                     <img src="<?php echo $settings['global']['assets_path']; ?>/images/payments/paypal.png" />
                                                 </div>
-                                                <span>Pay with PayPal</span>
+                                                <span class="payment-type-text">Pay with PayPal</span>
                                             </li>
                                             <li class="list-group-item grey modal-list-row">
                                                 <div class="payment-icons">
@@ -40,7 +40,7 @@
                                                     <img class="credit-card-icons" src="<?php echo $settings['global']['assets_path']; ?>/images/payments/mastercard.png" />
                                                     <img class="credit-card-icons" src="<?php echo $settings['global']['assets_path']; ?>/images/payments/visa.png" />
                                                 </div>
-                                                <span>Pay with Credit Card</span>
+                                                <span class="payment-type-text">Pay with Credit Card</span>
                                             </li>
                                         </ul>
                                     </div>
@@ -58,7 +58,7 @@
                                                <span>Skins: 10-15</span><br />
                                            </div>
                                        </div>
-                                        <img src="<?php echo $settings['global']['assets_path']; ?>/images/products/shark.png" class="img-fluid w-100" />
+                                        <img src="<?php echo $settings['global']['assets_path']; ?>/images/products/shark.png" class="img-fluid w-100 summary-img" />
                                     </div>
                                     <div class="container col-md-10 col-md-offset-1">
                                         <ul class="list-group list-group-flush">

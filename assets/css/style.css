@@ -582,6 +582,7 @@ header:after {
 /*  Buy modal  */
 
 .close-payment-btn {
+	font-size: 23px;
 	background-color: #FF6650;
 	width: 30px;
 	height: 30px;
@@ -589,7 +590,6 @@ header:after {
 	top: 5px;
 	right: 5px;
 	color: white;
-	font-size: 18px;
 	border: 0;
 }
 
@@ -615,11 +615,17 @@ header:after {
 .modal-list-row {
 	display: flex;
 	flex-direction: row;
+	padding: 25px;
 }
 
 .payment-icons {
 	margin-right: 20px;
 	width: 70px;
+}
+
+.payment-type-text {
+	font-size: 17px;
+	letter-spacing: 1pt;
 }
 
 .no-border {
@@ -653,6 +659,12 @@ header:after {
 	position: absolute;
 	width: 100%;
 	top: 30%;
+	z-index: 2;
+}
+
+.summary-img {
+	filter: brightness(60%);
+	z-index: -1;
 }
 
 .modal-pay-btn-cancel {
@@ -661,7 +673,7 @@ header:after {
 	letter-spacing: inherit;
 	padding: 7px 15px 5px;
 	width: 100px;
-	font-size: 16pt;
+	font-size: 18pt;
 }
 
 .modal-pay-btn-next {
@@ -669,8 +681,20 @@ header:after {
 	color: white;
 	letter-spacing: inherit;
 	width: 100%;
-	font-size: 16pt;
+	font-size: 18pt;
 	padding: 7px 15px 5px;
+}
+
+.close-payment-btn:hover {
+	cursor: pointer;
+}
+
+.modal-pay-btn-next:hover {
+	cursor: pointer;
+}
+
+.modal-pay-btn-cancel:hover {
+	cursor: pointer;
 }
 
 /* The dots/bullets/indicators */
