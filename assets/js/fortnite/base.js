@@ -52,6 +52,8 @@ $(document).ready(function () {
     $('.skinned-carousel').slick({
         centerMode: true,
         slidesToShow: 3,
+        dots: true,
+        centerPadding: 0,
 
         responsive: [
             {

@@ -323,8 +323,21 @@ header:after {
 	transition: .5s all;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	padding: 20px;
+	/*padding: 20px;*/
 }
+
+   .slick-slide {
+	   position: relative;
+	   z-index: 6;
+   }
+
+   .slick-center {
+	   z-index: 999;
+   }
+
+   .slick-center + .slick-slide {
+	   z-index: 8;
+   }
 
 .slick-slider .slick-list {
 	transform: none;

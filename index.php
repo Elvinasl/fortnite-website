@@ -12,6 +12,8 @@
         <link rel="stylesheet" href="<?php echo $settings['global']['assets_path']; ?>/css/style.css<?php echo $cache_prefix; ?>">
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.5.1/slick-theme.css"/>
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="<?php echo $settings['global']['assets_path']; ?>/js/popper.min.js<?php echo $cache_prefix; ?>"></script>
         <script src="<?php echo $settings['global']['assets_path']; ?>/js/bootstrap.min.js<?php echo $cache_prefix; ?>"></script>
