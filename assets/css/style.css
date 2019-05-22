@@ -394,8 +394,7 @@ header:after {
 	height: 250px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
-	padding-top: 25%;
+	align-items: center;
 	background: url('../images/product-background.png') no-repeat;
 	background-size: cover;
 }
@@ -405,10 +404,12 @@ header:after {
 	align-content: center;
 	display: flex;
 	flex-direction: column;
+	padding: 30px;
 }
 
 .skinned .product-card .product-photo {
-	position: relative;
+	position: absolute;
+	bottom: 0;
 }
 
 .skinned .product-card .product-photo .product-price {
