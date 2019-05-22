@@ -91,6 +91,8 @@ $(document).ready(function () {
 
         var elementToShowId = $("input[name='skinCategory']:checked").val();
         $('#' + elementToShowId).show();
+
+        initCardCarousel();
     }
 
     function initCardCarousel() {
