@@ -25,6 +25,10 @@ body {
 	color: #878787;
 }
 
+.grey-light {
+	color: #ffffffc2;
+}
+
 .button-orange {
 	background: #FF6650;
 	border: none;
@@ -384,18 +388,20 @@ header:after {
 }
 
 .skinned .product-card .product-body {
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-top: 25%;
 	background: url('../images/product-background.png') no-repeat;
 	background-size: cover;
 }
 
 .skinned .product-card .product-body .product-content {
-	padding: 25px;
-}
-
-.skinned .product-card .product-specs {
-	width: 100%;
-	color: rgba(255, 255, 255, .78);
-	font-size: 24px;
+	width: 200px;
+	align-content: center;
+	display: flex;
+	flex-direction: column;
 }
 
 .skinned .product-card .product-photo {

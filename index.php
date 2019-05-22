@@ -159,26 +159,10 @@
                                             <h3 class="product-title">Shark pack</h3>
                                             <div class="product-body">
                                                 <div class="product-content">
-                                                    <table class="product-specs">
-                                                        <tbody>
-                                                        <tr>
-                                                            <td>Skins:</td>
-                                                            <td>10-20</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Pickaxes:</td>
-                                                            <td>5+</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Level:</td>
-                                                            <td>Random</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Warranty:</td>
-                                                            <td>Lifetime</td>
-                                                        </tr>
-                                                        </tbody>
-                                                    </table>
+                                                    <span class="text-center grey-light">Skins: 10-20</span>
+                                                    <span class="text-center grey-light">Pickaxes: 5+</span>
+                                                    <span class="text-center grey-light">Level: random</span>
+                                                    <span class="text-center grey-light">Warranty: lifetime</span>
                                                 </div>
                                                 <div class="product-photo">
                                                     <img class="img-fluid" src="<?php echo $settings['global']['assets_path']; ?>/images/products/shark.png">
