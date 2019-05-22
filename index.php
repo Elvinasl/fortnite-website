@@ -50,7 +50,7 @@
                 </div>
             </div>
         </header>
-        <section id="products" class="py-3 black">
+        <section id="products" class="py-5 black">
             <div class="container-fluid">
                 <h1 class="text-center black text-uppercase">Pick your new skin</h1>
                 <div class="d-flex justify-content-center mt-3">

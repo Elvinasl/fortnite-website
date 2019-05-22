@@ -323,7 +323,6 @@ header:after {
 	transition: .5s all;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	/*padding: 20px;*/
 }
 
    .slick-slide {
@@ -341,6 +340,14 @@ header:after {
 
 .slick-slider .slick-list {
 	transform: none;
+}
+
+.slick-dots li button:before {
+	font-size: 15px !important;
+}
+
+.slick-dots li.slick-active button:before {
+	color: #FF6650 !important;
 }
 
 .skinned .product-card .product-title {
