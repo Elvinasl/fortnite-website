@@ -1,4 +1,4 @@
-<div class="modal" tabindex="-1" role="dialog" id="buy-modal" style="display: block">
+<div class="modal" tabindex="-1" role="dialog" id="buy-modal">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <form action="" method="post">
@@ -16,8 +16,8 @@
                             <span aria-hidden="true">X</span>
                         </button>
                     </div>
-                    <div id="buyNowCarousel" class="carousel slide py-2" data-ride="carousel">
-                        <div class="col-md-12">
+                    <div class="col-md-12  py-2">
+                        <div id="buyNowCarousel" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                     <div class="carousel-item active">
                                         <h1 class="text-center black">SELECT PAYMENT METHOD</h1>
@@ -46,7 +46,18 @@
                                     </div>
                                 <div class="carousel-item">
                                     <h1 class="text-center black">SUMMARY</h1>
-                                    <div class="container-fluid text-center">
+                                    <div class="container-fluid">
+                                       <div class="row summary-modal-row">
+                                           <div class="col-sm-8">
+                                               <h1 class="text-center">SHARK PACK</h1>
+                                           </div>
+                                           <div class="col-sm-4">
+                                               <span>Skins: 10-15</span><br />
+                                               <span>Skins: 10-15</span><br />
+                                               <span>Skins: 10-15</span><br />
+                                               <span>Skins: 10-15</span><br />
+                                           </div>
+                                       </div>
                                         <img src="<?php echo $settings['global']['assets_path']; ?>/images/products/shark.png" class="img-fluid w-100" />
                                     </div>
                                     <div class="container col-md-10 col-md-offset-1">
