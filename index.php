@@ -346,13 +346,6 @@
                                 <i class="fa fa-instagram social-icon"></i>
                                 <div class="h4">HELLO@FORTNITEACC.COM</div>
                                 <div class="h4">CALL US: +370 625 7227</div>
-                                <div class="d-inline-flex mt-3">
-                                    <img class="pr-3" src="<?php echo $settings['global']['assets_path']; ?>/images/payments/bitpay.png" height="21px">
-                                    <img class="pr-3" src="<?php echo $settings['global']['assets_path']; ?>/images/payments/american-express.png" height="29px">
-                                    <img class="pr-3" src="<?php echo $settings['global']['assets_path']; ?>/images/payments/mastercard.png" height="28px">
-                                    <img class="pr-3" src="<?php echo $settings['global']['assets_path']; ?>/images/payments/paypal.png" height="15px">
-                                    <img class="" src="<?php echo $settings['global']['assets_path']; ?>/images/payments/visa.png" height="15px">
-                                </div>
                             </div>
                         </div>
                     </div>
