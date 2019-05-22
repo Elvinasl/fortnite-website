@@ -350,6 +350,18 @@ header:after {
 	color: #FF6650 !important;
 }
 
+.slick-slider {
+	margin-bottom: 70px !important;
+}
+
+.slick-prev:before, .slick-next:before {
+	font-size: 50px !important;
+}
+
+.slick-prev {
+	left: -60px !important;
+}
+
 .skinned .product-card .product-title {
 	background-color: #fff;
 	text-transform: uppercase;
