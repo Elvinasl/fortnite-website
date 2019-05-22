@@ -16,8 +16,8 @@
                             <span aria-hidden="true">X</span>
                         </button>
                     </div>
-                    <div id="buyNowCarousel" class="carousel slide" data-ride="carousel">
-                        <div class="col-md-12 my-4">
+                    <div id="buyNowCarousel" class="carousel slide py-2" data-ride="carousel">
+                        <div class="col-md-12">
                             <div class="carousel-inner">
                                     <div class="carousel-item active">
                                         <h1 class="text-center black">SELECT PAYMENT METHOD</h1>
@@ -49,16 +49,18 @@
                                     <div class="container-fluid text-center">
                                         <img src="<?php echo $settings['global']['assets_path']; ?>/images/products/shark.png" class="img-fluid w-100" />
                                     </div>
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item black no-border">
-                                            Price
-                                            <span class="pull-right font-weight-bold">25 EUR</span>
-                                        </li>
-                                        <li class="list-group-item black">
-                                            Discount code
-                                            <input class="form-group pull-right discount-field no-border" placeholder="Enter discount code">
-                                        </li>
-                                    </ul>
+                                    <div class="container col-md-10 col-md-offset-1">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item black no-border">
+                                                Price
+                                                <span class="pull-right font-weight-bold">25 EUR</span>
+                                            </li>
+                                            <li class="list-group-item black">
+                                                Discount code
+                                                <input class="pull-right discount-field no-border" placeholder="Enter discount code">
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                                 <div class="carousel-item">
                                     <h1 class="text-center black">CONFIRMATION</h1>
