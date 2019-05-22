@@ -1,5 +1,5 @@
 <div class="modal" tabindex="-1" role="dialog" id="buy-modal">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog h-100 d-flex flex-column justify-content-center my-0" role="document">
         <div class="modal-content">
             <form action="" method="post">
                 <input type="hidden" id="modal-product-id" />
