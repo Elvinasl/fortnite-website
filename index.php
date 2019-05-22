@@ -24,7 +24,7 @@
     <body>
         <header id="home">
             <div class="header-top">
-                <div class="container">
+                <div class="container-fluid">
                     <div class="row">
                         <div class="col-md-3">
                             <a href="#">
@@ -41,6 +41,9 @@
                             </ul>
                         </div>
                     </div>
+
+                </div>
+                <div class="container">
                     <div class="row">
                         <div class="col-md-6">
                             <h1 class="header-title">GET EXCLUSIVE FORTNITE SKINS</h1>

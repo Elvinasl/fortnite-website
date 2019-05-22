@@ -53,7 +53,7 @@ header:after {
 	background: url('../images/svgs/triangle-up-grey.svg') no-repeat;
 	background-size: cover;
 	height: 150px;
-	left: -10px;
+	left: -0;
 	width: 100%;
 	bottom: -28px;
 }
