@@ -325,6 +325,7 @@ header:after {
 	transition: .5s all;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
    .slick-slide {
@@ -342,6 +343,8 @@ header:after {
 
 .slick-slider .slick-list {
 	transform: none;
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
 }
 
 .slick-dots li button:before {
