@@ -25,23 +25,24 @@
         <header id="home">
             <div class="header-top">
                 <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <a href="#">
-                                <img src="<?php echo $settings['global']['assets_path']; ?>/images/logov2.png" width="200px">
-                            </a>
-                        </div>
-                        <div class="col-md-9 d-none d-md-block">
-                            <ul class="header-top-navigation d-inline-flex navlinks">
-                                <li><a href="#home">Home</a></li>
-                                <li><a href="#products">Buy Account</a></li>
-                                <li><a href="#features">Giveaway</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Contacts</a></li>
-                            </ul>
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <a href="#">
+                                    <img src="<?php echo $settings['global']['assets_path']; ?>/images/logov2.png" width="200px">
+                                </a>
+                            </div>
+                            <div class="col-md-9 d-none d-md-block">
+                                <ul class="header-top-navigation d-inline-flex navlinks">
+                                    <li><a href="#home">Home</a></li>
+                                    <li><a href="#products">Buy Account</a></li>
+                                    <li><a href="#features">Giveaway</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Contacts</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-
                 </div>
                 <div class="container">
                     <div class="row">
@@ -316,38 +317,40 @@
         </section>
         <footer>
             <div class="container-fluid py-5">
-                <div class="row pt-5">
-                    <div class="col-6 col-md-5 d-flex align-items-end order-5 order-md-0">
-                        <div>
-                            <ul class="footer-navigation pl-0 navlinks">
-                                <li><a href="#home">Home</a></li>
-                                <li><a href="#products">Buy Account</a></li>
-                                <li><a href="#features">Giveaway</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Contacts</a></li>
-                                <li><a href="#">Terms of Services</a></li>
-                            </ul>
-                            <div class="h5">FORTNITEACC.COM © ALL RIGHTS RESERVED</div>
+                <div class="col-md-12">
+                    <div class="row pt-5">
+                        <div class="col-6 col-md-5 d-flex align-items-end order-5 order-md-0">
+                            <div>
+                                <ul class="footer-navigation pl-0 navlinks">
+                                    <li><a href="#home">Home</a></li>
+                                    <li><a href="#products">Buy Account</a></li>
+                                    <li><a href="#features">Giveaway</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Contacts</a></li>
+                                    <li><a href="#">Terms of Services</a></li>
+                                </ul>
+                                <div class="h5">FORTNITEACC.COM © ALL RIGHTS RESERVED</div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-12 col-md-2 text-center d-flex align-items-end">
-                        <div class="mt-0 text-center w-100">
-                            <img src="<?php echo $settings['global']['assets_path']; ?>/images/logov2.png" width="170px">
-                            <div class="h2 text-uppercase my-3">ForniteAcc.com</div>
+                        <div class="col-12 col-md-2 text-center d-flex align-items-end">
+                            <div class="mt-0 text-center w-100">
+                                <img src="<?php echo $settings['global']['assets_path']; ?>/images/logov2.png" width="170px">
+                                <div class="h2 text-uppercase my-3">ForniteAcc.com</div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-6 col-md-5 text-right d-flex align-items-end justify-content-end order-5 order-md-0">
-                        <div class="mb-3">
-                            <i class="fa fa-facebook-square pr-1 social-icon"></i>
-                            <i class="fa fa-instagram social-icon"></i>
-                            <div class="h4">HELLO@FORTNITEACC.COM</div>
-                            <div class="h4">CALL US: +370 625 7227</div>
-                            <div class="d-inline-flex mt-3">
-                                <img class="pr-3" src="<?php echo $settings['global']['assets_path']; ?>/images/payments/bitpay.png" height="21px">
-                                <img class="pr-3" src="<?php echo $settings['global']['assets_path']; ?>/images/payments/american-express.png" height="29px">
-                                <img class="pr-3" src="<?php echo $settings['global']['assets_path']; ?>/images/payments/mastercard.png" height="28px">
-                                <img class="pr-3" src="<?php echo $settings['global']['assets_path']; ?>/images/payments/paypal.png" height="15px">
-                                <img class="" src="<?php echo $settings['global']['assets_path']; ?>/images/payments/visa.png" height="15px">
+                        <div class="col-6 col-md-5 text-right d-flex align-items-end justify-content-end order-5 order-md-0">
+                            <div class="mb-3">
+                                <i class="fa fa-facebook-square pr-1 social-icon"></i>
+                                <i class="fa fa-instagram social-icon"></i>
+                                <div class="h4">HELLO@FORTNITEACC.COM</div>
+                                <div class="h4">CALL US: +370 625 7227</div>
+                                <div class="d-inline-flex mt-3">
+                                    <img class="pr-3" src="<?php echo $settings['global']['assets_path']; ?>/images/payments/bitpay.png" height="21px">
+                                    <img class="pr-3" src="<?php echo $settings['global']['assets_path']; ?>/images/payments/american-express.png" height="29px">
+                                    <img class="pr-3" src="<?php echo $settings['global']['assets_path']; ?>/images/payments/mastercard.png" height="28px">
+                                    <img class="pr-3" src="<?php echo $settings['global']['assets_path']; ?>/images/payments/paypal.png" height="15px">
+                                    <img class="" src="<?php echo $settings['global']['assets_path']; ?>/images/payments/visa.png" height="15px">
+                                </div>
                             </div>
                         </div>
                     </div>
