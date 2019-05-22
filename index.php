@@ -151,41 +151,45 @@
                             </div>
                             <?php } ?>
                         </div>
-                        <div class="skinned-carousel skinned" id="skinned">
-                            <?php for ($i = 0; $i < 6; $i++) { ?>
-                            <div class="product-card">
-                                <h3 class="product-title">Shark pack</h3>
-                                <div class="product-body">
-                                    <div class="product-content">
-                                        <table class="product-specs">
-                                            <tbody>
-                                            <tr>
-                                                <td>Skins:</td>
-                                                <td>10-20</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Pickaxes:</td>
-                                                <td>5+</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Level:</td>
-                                                <td>Random</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Warranty:</td>
-                                                <td>Lifetime</td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    <div class="product-photo">
-                                        <img class="img-fluid" src="<?php echo $settings['global']['assets_path']; ?>/images/products/shark.png">
-                                        <div class="product-price">49.99$</div>
-                                        <button type="button" class="product-button" data-toggle="modal" data-target="#buy-modal" value="id goes here">Pay</button>
-                                    </div>
+                        <div class="container d-flex justify-content-center">
+                            <div class="col-md-7">
+                                <div class="skinned-carousel skinned" id="skinned">
+                                    <?php for ($i = 0; $i < 6; $i++) { ?>
+                                        <div class="product-card">
+                                            <h3 class="product-title">Shark pack</h3>
+                                            <div class="product-body">
+                                                <div class="product-content">
+                                                    <table class="product-specs">
+                                                        <tbody>
+                                                        <tr>
+                                                            <td>Skins:</td>
+                                                            <td>10-20</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Pickaxes:</td>
+                                                            <td>5+</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Level:</td>
+                                                            <td>Random</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Warranty:</td>
+                                                            <td>Lifetime</td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="product-photo">
+                                                    <img class="img-fluid" src="<?php echo $settings['global']['assets_path']; ?>/images/products/shark.png">
+                                                    <div class="product-price">49.99$</div>
+                                                    <button type="button" class="product-button" data-toggle="modal" data-target="#buy-modal" value="id goes here">Pay</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    <?php } ?>
                                 </div>
                             </div>
-                            <?php } ?>
                         </div>
                     </div>
                 </div>

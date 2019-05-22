@@ -258,8 +258,6 @@ header:after {
 }
 
 .rare .product-card .product-title {
-	/*background-color: #fff;*/
-	/*word-spacing: 100vw;*/
 	text-transform: uppercase;
 	text-align: center;
 	font-size: 30px;
@@ -366,9 +364,9 @@ header:after {
 	background-color: #fff;
 	text-transform: uppercase;
 	text-align: center;
-	font-size: 38px;
-	padding: 15px;
+	font-size: 25px;
 	margin-bottom: 0;
+	padding: 15px 5px 5px;
 }
 
 .slick-center {
