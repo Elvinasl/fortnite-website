@@ -1,4 +1,4 @@
-<div class="modal" tabindex="-1" role="dialog" id="buy-modal">
+<div class="modal" tabindex="-1" role="dialog" id="buy-modal" style="display: block">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <form action="" method="post">
@@ -46,9 +46,11 @@
                                     </div>
                                 <div class="carousel-item">
                                     <h1 class="text-center black">SUMMARY</h1>
-                                    <img src="<?php echo $settings['global']['assets_path']; ?>/images/products/shark.png" />
+                                    <div class="container-fluid text-center">
+                                        <img src="<?php echo $settings['global']['assets_path']; ?>/images/products/shark.png" class="img-fluid w-100" />
+                                    </div>
                                     <ul class="list-group list-group-flush">
-                                        <li class="list-group-item black">
+                                        <li class="list-group-item black no-border">
                                             Price
                                             <span class="pull-right font-weight-bold">25 EUR</span>
                                         </li>
