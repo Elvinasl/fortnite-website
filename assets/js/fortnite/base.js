@@ -19,7 +19,6 @@ $(document).ready(function () {
 
     var slideIndex = 0;
 
-    initCardCarousel();
 
     $('.carousel').carousel({
         interval: false,
