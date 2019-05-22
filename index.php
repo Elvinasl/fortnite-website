@@ -153,7 +153,7 @@
                             <?php } ?>
                         </div>
                         <div class="container d-flex justify-content-center">
-                            <div class="col-md-7">
+                            <div class="col-lg-7">
                                 <div class="skinned-carousel skinned" id="skinned">
                                     <?php for ($i = 0; $i < 6; $i++) { ?>
                                         <div class="product-card">
