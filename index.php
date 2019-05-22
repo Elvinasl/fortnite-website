@@ -105,52 +105,54 @@
                 </div>
                 <div class="products-line">
                     <div class="container">
-                        <div class="products-carousel rare" id="rare">
-                            <?php for ($i = 0; $i < 6; $i++) { ?>
-                            <div class="product-card cloud9-item mx-auto">
-                                <h3 class="product-title">Renegade Raider</h3>
-                                <div class="product-body">
-                                    <div class="product-photo">
-                                        <img class="img-fluid rare-skin-photo" src="<?php echo $settings['global']['assets_path']; ?>/images/products/rare/renegade-raider.png">
-                                        <table class="product-specs">
-                                            <tbody>
-                                                <tr>
-                                                    <td>Skins:</td>
-                                                    <td>10-20</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Pickaxes:</td>
-                                                    <td>5+</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Pickaxes:</td>
-                                                    <td>5+</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Pickaxes:</td>
-                                                    <td>5+</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Pickaxes:</td>
-                                                    <td>5+</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Level:</td>
-                                                    <td>Random</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Warranty:</td>
-                                                    <td>Lifetime</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                        <div class="product-price">49.99$</div>
-                                        <!-- TODO: pass product id/price to product-button as a value attribute -->
-                                        <button type="button" class="product-button" data-toggle="modal" data-target="#buy-modal" value="id goes here">Pay</button>
+                        <div class="col-lg-12">
+                            <div class="products-carousel rare" id="rare">
+                                <?php for ($i = 0; $i < 6; $i++) { ?>
+                                    <div class="product-card cloud9-item mx-auto">
+                                        <h3 class="product-title">Renegade Raider</h3>
+                                        <div class="product-body">
+                                            <div class="product-photo">
+                                                <img class="img-fluid rare-skin-photo" src="<?php echo $settings['global']['assets_path']; ?>/images/products/rare/renegade-raider.png">
+                                                <table class="product-specs">
+                                                    <tbody>
+                                                    <tr>
+                                                        <td>Skins:</td>
+                                                        <td>10-20</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Pickaxes:</td>
+                                                        <td>5+</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Pickaxes:</td>
+                                                        <td>5+</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Pickaxes:</td>
+                                                        <td>5+</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Pickaxes:</td>
+                                                        <td>5+</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Level:</td>
+                                                        <td>Random</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Warranty:</td>
+                                                        <td>Lifetime</td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                                <div class="product-price">49.99$</div>
+                                                <!-- TODO: pass product id/price to product-button as a value attribute -->
+                                                <button type="button" class="product-button" data-toggle="modal" data-target="#buy-modal" value="id goes here">Pay</button>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
+                                <?php } ?>
                             </div>
-                            <?php } ?>
                         </div>
                         <div class="container d-flex justify-content-center">
                             <div class="col-lg-7">

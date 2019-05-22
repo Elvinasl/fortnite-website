@@ -50,6 +50,7 @@ $(document).ready(function () {
     });
 
     $('.skinned-carousel').slick({
+        focusOnSelect:true,
         centerMode: true,
         slidesToShow: 3,
         dots: true,
