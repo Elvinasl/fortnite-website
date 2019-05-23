@@ -47,8 +47,8 @@ header {
 	background: url('../images/header-background.png') no-repeat;
 	background-position-x: center;
 	background-size: cover;
-	padding: 40px 0;
-	height: 100vh;
+	padding: 40px 40px 25%;
+	height: 100%;
 }
 
 header:after {
