@@ -181,7 +181,7 @@
                                         <?php } ?>
                                     </div>
                                 </div>
-                                <img class="prev slick-arrow" src="<?php echo $settings['global']['assets_path']; ?>/images/arrows/next-arrow.png">
+                                <img class="next slick-arrow" src="<?php echo $settings['global']['assets_path']; ?>/images/arrows/next-arrow.png">
                             </div>
                         </div>
                     </div>

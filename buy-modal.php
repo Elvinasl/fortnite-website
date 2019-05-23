@@ -6,7 +6,7 @@
 
 
                 <div class="modal-body">
-                    <div class="col-md-12 py-4">
+                    <div class="col-md-12 pb-4 flex-row d-flex justify-content-md-end">
                         <div class="carousel-indicators">
                             <span class="dot dot-active" data-slide="0"></span>
                             <span class="dot" data-slide="1"></span>

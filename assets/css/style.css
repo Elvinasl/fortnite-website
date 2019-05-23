@@ -58,7 +58,7 @@ header:after {
 	background-size: cover;
 	height: 150px;
 	left: -0;
-	width: 100%;
+	width: 100% !important;
 	bottom: -28px;
 }
 
@@ -591,11 +591,8 @@ header:after {
 .close-payment-btn {
 	font-size: 23px;
 	background-color: #FF6650;
-	width: 30px;
 	height: 30px;
-	position: absolute;
-	top: 5px;
-	right: 5px;
+	position: relative;
 	color: white;
 	border: 0;
 }
