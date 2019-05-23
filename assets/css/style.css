@@ -253,6 +253,10 @@ header:after {
 	margin-top: 50px;
 }
 
+#rare {
+	overflow: visible !important;
+}
+
 /* Rare skins pricing table */
 .rare .product-card {
 	background: url('../images/rare-skins-background.png') no-repeat;
@@ -326,6 +330,7 @@ header:after {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	outline: none !important;
 }
 
    .slick-slide {

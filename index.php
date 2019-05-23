@@ -105,7 +105,7 @@
                 </div>
                 <div class="products-line">
                     <div class="container">
-                        <div class="col-lg-12">
+                        <div class="col-md-12">
                             <div class="products-carousel rare" id="rare">
                                 <?php for ($i = 0; $i < 6; $i++) { ?>
                                     <div class="cloud9-item">
