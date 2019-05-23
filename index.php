@@ -157,7 +157,7 @@
                             </div>
                         </div>
                         <div class="container">
-                            <div class="row d-flex justify-content-center">
+                            <div class="d-flex justify-content-center flex-row">
                                 <img class="prev slick-arrow" src="<?php echo $settings['global']['assets_path']; ?>/images/arrows/back-arrow.png">
                                 <div class="col-lg-8">
                                     <div class="skinned-carousel skinned" id="skinned">
