@@ -156,28 +156,32 @@
                                 <?php } ?>
                             </div>
                         </div>
-                        <div class="container d-flex justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="skinned-carousel skinned" id="skinned">
-                                    <?php for ($i = 0; $i < 6; $i++) { ?>
-                                        <div class="product-card">
-                                            <h3 class="product-title">Shark pack</h3>
-                                            <div class="product-body">
-                                                <div class="product-content">
-                                                    <span class="text-center grey-light">Skins: 10-20</span>
-                                                    <span class="text-center grey-light">Pickaxes: 5+</span>
-                                                    <span class="text-center grey-light">Level: random</span>
-                                                    <span class="text-center grey-light">Warranty: lifetime</span>
-                                                </div>
-                                                <div class="product-photo">
-                                                    <img class="img-fluid" src="<?php echo $settings['global']['assets_path']; ?>/images/products/shark.png">
-                                                    <div class="product-price">49.99$</div>
-                                                    <button type="button" class="product-button" data-toggle="modal" data-target="#buy-modal" value="id goes here">Pay</button>
+                        <div class="container">
+                            <div class="row d-flex justify-content-center">
+                                <img class="prev slick-arrow" src="<?php echo $settings['global']['assets_path']; ?>/images/arrows/back-arrow.png">
+                                <div class="col-lg-8">
+                                    <div class="skinned-carousel skinned" id="skinned">
+                                        <?php for ($i = 0; $i < 6; $i++) { ?>
+                                            <div class="product-card">
+                                                <h3 class="product-title">Shark pack</h3>
+                                                <div class="product-body">
+                                                    <div class="product-content">
+                                                        <span class="text-center grey-light">Skins: 10-20</span>
+                                                        <span class="text-center grey-light">Pickaxes: 5+</span>
+                                                        <span class="text-center grey-light">Level: random</span>
+                                                        <span class="text-center grey-light">Warranty: lifetime</span>
+                                                    </div>
+                                                    <div class="product-photo">
+                                                        <img class="img-fluid" src="<?php echo $settings['global']['assets_path']; ?>/images/products/shark.png">
+                                                        <div class="product-price">49.99$</div>
+                                                        <button type="button" class="product-button" data-toggle="modal" data-target="#buy-modal" value="id goes here">Pay</button>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    <?php } ?>
+                                        <?php } ?>
+                                    </div>
                                 </div>
+                                <img class="prev slick-arrow" src="<?php echo $settings['global']['assets_path']; ?>/images/arrows/next-arrow.png">
                             </div>
                         </div>
                     </div>

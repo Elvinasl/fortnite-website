@@ -54,6 +54,8 @@ $(document).ready(function () {
         slidesToShow: 3,
         dots: true,
         centerPadding: 0,
+        prevArrow: $('.prev'),
+        nextArrow: $('.next'),
 
         responsive: [
             {
