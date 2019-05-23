@@ -91,9 +91,14 @@ $(document).ready(function () {
             $('#' + elementToHideId).hide();
         });
 
+        $('.slick-arrow').hide();
+
         var elementToShowId = $("input[name='skinCategory']:checked").val();
         $('#' + elementToShowId).show();
 
+        if (elementToShowId === 'skinned') {
+            $('.slick-arrow').show();
+        }
         initCardCarousel();
     }
 
