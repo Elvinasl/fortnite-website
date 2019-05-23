@@ -97,12 +97,10 @@ $(document).ready(function () {
 
     function initCardCarousel() {
         $(".products-carousel").Cloud9Carousel({
-            autoPlay: 1,
+            autoPlay: 0,
             bringToFront: true,
             xRadius: 400,
             yRadius: 100,
-            autoPlayDelay: 10000,
-            speed: 10
         });
     }
 
