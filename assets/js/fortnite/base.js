@@ -108,6 +108,7 @@ $(document).ready(function () {
             bringToFront: true,
             xRadius: 400,
             yRadius: 100,
+            speed: 2,
         });
     }
 
