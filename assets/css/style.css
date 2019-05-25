@@ -325,6 +325,10 @@ header:after {
 
 /* Skinned pricing table */
 
+.slick-slide { -webkit-transform: translate3d(0,0,0); }
+
+.slick-slide { will-change: transform; }
+
 .skinned .product-card {
 	transition: .5s all;
 	margin-top: 20px;
@@ -333,18 +337,18 @@ header:after {
 	outline: none !important;
 }
 
-   .slick-slide {
-	   position: relative;
-	   z-index: 6;
-   }
+.slick-slide {
+   position: relative;
+   z-index: 6;
+}
 
-   .slick-center {
-	   z-index: 999;
-   }
+.slick-center {
+   z-index: 999;
+}
 
-   .slick-center + .slick-slide {
-	   z-index: 8;
-   }
+.slick-center + .slick-slide {
+   z-index: 8;
+}
 
 .slick-slider .slick-list {
 	transform: none;

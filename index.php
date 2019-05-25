@@ -24,7 +24,7 @@
     <body>
         <header id="home">
             <div class="header-top">
-                <div class="container-fluid">
+                <div class="container">
                     <div class="col-md-12">
                         <div class="row">
                             <div class="col-md-3">

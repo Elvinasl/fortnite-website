@@ -53,6 +53,7 @@ $(document).ready(function () {
         centerMode: true,
         slidesToShow: 3,
         dots: true,
+        useTransform: false,
         centerPadding: 0,
         prevArrow: $('.prev'),
         nextArrow: $('.next'),
