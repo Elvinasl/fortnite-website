@@ -85,6 +85,10 @@ $(document).ready(function () {
         $('.carousel').carousel(i);
     }
 
+    $("#skinCategory2").on('click', function () {
+       initCardCarousel();
+    });
+
     // function to determine which skin to show. We are showing div id by radio button value.
     function skinCategoryChanged() {
         $("input[name='skinCategory']").each(function(index, element) {
