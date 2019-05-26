@@ -573,10 +573,9 @@ header:after {
 	background-size: cover;
 	width: 800px;
 	height: 200px;
-	bottom: -100px;
-	left: 50%;
 	z-index: 2;
-	transform: translate(-50%, 0);
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .subscribe .stats-title {
@@ -726,6 +725,7 @@ header:after {
 /*  FOOTER  */
 
 footer {
+	position: relative;
 	background: #000000;
 }
 

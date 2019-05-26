@@ -308,6 +308,8 @@
                     </div>
                 </div>
             </div>
+        </section>
+        <footer class="pt-5">
             <div class="subscribe pt-4">
                 <div class="pt-4 px-5 mx-4">
                     <h2 class="text-uppercase black">Follow updates</h2>
@@ -321,8 +323,6 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <footer>
             <div class="container-fluid py-5">
                 <div class="col-md-12">
                     <div class="row pt-5">
