@@ -22,9 +22,8 @@
         <script src="<?php echo $settings['global']['assets_path']; ?>/js/fortnite/base.js<?php echo $cache_prefix; ?>"></script>
     </head>
     <body>
-        <header id="home">
-            <div class="header-top">
-                <div class="container-fluid">
+        <header id="home" class="px-4 pt-4">
+            <div class="container-fluid">
                     <div class="col-md-12">
                         <div class="row">
                             <div class="col-md-3">
@@ -44,15 +43,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <h1 class="header-title">GET EXCLUSIVE FORTNITE SKINS</h1>
-                            <button type="button" class="button-orange">Pay now</button>
-                        </div>
+            <div class="container-fluid header-invitation">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h1 class="header-title">GET EXCLUSIVE FORTNITE SKINS</h1>
+                        <button type="button" class="button-orange">Pay now</button>
                     </div>
                 </div>
-            </div>
+        </div>
         </header>
         <section id="products" class="py-5 black">
             <div class="container-fluid">
