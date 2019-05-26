@@ -99,7 +99,7 @@ $(document).ready(function () {
         $('.slick-arrow').hide();
 
         var elementToShowId = $("input[name='skinCategory']:checked").val();
-        $('#' + elementToShowId).show();
+        $('#' + elementToShowId).fadeIn();
 
         if (elementToShowId === 'skinned') {
             $('.slick-arrow').show();
